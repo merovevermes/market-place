@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+@media(max-width:600px){ul{font-size:13;}}
+
+@media(min-width:601px){ul{font-size:18;}}
+header{background: #1B1819;}
+
+    
+
+body{background-color:black;}
+
+#logo {width: 40px;height: 40px; }
+#qualite-son{width: 200px;height: 200px;position:relative; left: 81%;}
+#reduction-son{width: 200px;height: 200px;position: relative; left: 0%;}
+#image-batterie{width: 200px;height: 200px;position: relative; left: 81%;}
+#image-Blutooth{width: 200px;height: 200px;position: relative; left: 0%;}
+#animation{position: relative;}
+
+.top{
+  top: 0;
+}
+
+@media (max-width:600px){
+    ul{font-size: 14px;}
+    #logo{display: none}
+}
+
+footer{background: #1B1819;}
+
+#btn-buy{
+    position: relative;
+    left: 41%;
+}
+body{border: 0px; padding: 0;}
+
+#open{animation-delay: 3s;}
+
+#OrderButton{left: 50%;position: relative;}
